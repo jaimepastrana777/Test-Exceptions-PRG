@@ -9,7 +9,7 @@ public class EntradaTests {
     @Test
     public void testGetPrecioTotalGrada() {
         Entrada entradaGrada = new Entrada("Grada", 30.0);
-        assertEquals(30.0, entradaGrada.getPreciogit initTotal(), 0.01);
+assertEquals(30.0, entradaGrada.getPrecioTotal(), 0.01);
     }
 
     @Test
